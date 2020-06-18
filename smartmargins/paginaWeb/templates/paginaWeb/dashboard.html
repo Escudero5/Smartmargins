@@ -5,45 +5,71 @@
 
 <div>
         <div class="row my_dashboard">
-                <div class = 'my_dashboard_title'>
-                  <a class=text-dark href= {% url 'dashboard' %}   >
-                    My Dashboard
-                  </a>
+                <div class = 'my_dashboard_title_box'>
+                  <h3>My Dashboard
+                  </h3>
                 </div>
 
-                <div class  = 'my_dashboard_icon' >
+                <div class  = 'my_dashboard_icon_1' >
 
-                  <div style = 'padding-left: 20%'>
-                    <svg class="bi bi-basket" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <div>
+                    <svg class = 'my_icon_1_logo'  width="2em" height="2em" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 1 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z"/>
                       <path fill-rule="evenodd" d="M1 7v1h14V7H1zM.5 6a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h15a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5H.5z"/>
                       <path fill-rule="evenodd" d="M14 9H2v5a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V9zM2 8a1 1 0 0 0-1 1v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9a1 1 0 0 0-1-1H2z"/>
                       <path fill-rule="evenodd" d="M4 10a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 4 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 6 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3A.5.5 0 0 1 8 10zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5zm2 0a.5.5 0 0 1 .5.5v3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5z"/>
                     </svg>
                   </div>
-                  <div>
-                    <a class= 'my_icon_url' href= {% url 'products' %}>
+                  <div class= 'my_icon_url_box'>
+                    <a class= 'my_icon_url_1' href= {% url 'products' %}>
                       Products
                     </a>
                   </div>
                </div>
 
-                <div class = 'my_dashboard_icon'>
-                  <a class=text-dark href= {% url 'saleschannels' %}   >
-                    Sales Channels
+                <div class = 'my_dashboard_icon_2'>
+
+                  <div>
+                    <svg class="my_icon_2_logo" width="2em" height="2em" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5h-2v12h2V2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z"/>
+                    </svg>
+                  </div>
+
+                  <div class= 'my_icon_url_box'>
+                  <a class='my_icon_url_1' href= {% url 'saleschannels' %}   >
+                    Channels
                   </a>
+                  </div>
                 </div>
 
                 <div class =  'my_dashboard_icon'>
-                  <a class=text-dark href= {% url 'competitors' %}   >
+                  <div>
+                    <svg class= 'my_icon_logo' width="2em" height="2em" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                  </div>
+                  <div class = 'my_icon_url_box'>
+                  <a class= 'my_icon_url' href= {% url 'competitors' %}   >
                     Competitors
                   </a>
+                  </div>
                 </div>
 
                 <div class = 'my_dashboard_icon'>
-                  <a class=text-dark href= {% url 'strategysettings' %}   >
-                    Strategy Settings
+                  <div>
+                    <svg  style = 'width: 100%;display:block;margin: auto ;margin-bottom: 5% ;fill: #595959;' width="2em" height="2em" viewBox="0 0 16 16"  xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                      <path fill-rule="evenodd" d="M8 13A5 5 0 1 0 8 3a5 5 0 0 0 0 10zm0 1A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                      <path fill-rule="evenodd" d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"/>
+                      <path d="M9.5 8a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    </svg>
+                  </div>
+
+                  <div class = 'my_icon_url_box'>
+                  <a class = 'my_icon_url'  href= blank >
+                    Strategy
                   </a>
+                  </div>
                 </div>
 
         </div>
