@@ -12,33 +12,40 @@
 
     <!-- Styles -->
     <link href = "{% static 'paginaWeb/css/gestion.css' %}" rel = "stylesheet">
+    <link href = "{% static 'paginaWeb/css/antoncss.css' %}" rel = "stylesheet">
 
     <title> Smartmargins </title>
 
   </head>
- 
- 
+
+
   <body>
-    
-    
+    <!--<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+         <h5 class="my-0 mr-md-auto font-weight-normal">Smart Margins</h5>
+         <nav class="my-2 my-md-0 mr-md-3">
+           <a class="p-2 text-dark" href="#">Products</a>
+           <a class="p-2 text-dark" href="#">About Us</a>
+           <a class="p-2 text-dark" href="#">Support</a>
+         </nav>
+         <a class="btn btn-outline-primary" href="#">Sign up</a>
+    </div>-->
+
     <div class="titulo  bordeTitulo">
         <div class="row">
             <img class="col-12 col-xl-2 ml-2 mt-2 mb-3 borde" src = "{% static 'paginaWeb/img/SMlogo.png '  %}"> </img>
         </div>
     </div>
 
-    
-
-    <div class="container-fluid  bordebarra">
+  <div class="container-fluid  bordebarra">
         <div class="row">
-           
+
                 <div class="col-12 col-xl-3 mt-2 mb-2"> <center><a class=text-white href= {% url 'home' %}   >Home</a></center>  </div>
                 <div class="col-12 col-xl-3 mt-2 mb-2"> <center><a class=text-white href= {% url 'dashboard' %}   >Dashboard</a></center> </div>
                 <div class="col-12 col-xl-3 mt-2 mb-2"> <center><a class=text-white href= {% url 'products' %}   >products</a></center> </div>
                 <div class="col-12 col-xl-3 mt-2 mb-2"> <center><a class=text-white href= {% url 'saleschannels' %}   >saleschannels</a> </center> </div>
 
         </div>
-    </div>
+    </div> 
 
 
 
@@ -47,10 +54,10 @@
     <!--Dinamic content -->
     {% block content %}
 
-    
+
     {% endblock%}
 
-    
+
 
 
     <!-- Optional JavaScript -->
