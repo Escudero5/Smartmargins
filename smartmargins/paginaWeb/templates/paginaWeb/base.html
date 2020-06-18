@@ -10,12 +10,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    
+
     <!-- Styles -->
     <link href = "{% static 'paginaWeb/css/gestion.css' %}" rel = "stylesheet">
+    <link href = "{% static 'paginaWeb/css/antoncss.css' %}" rel = "stylesheet">
+
 
     <!--Cambio el form search a color verde-->
-    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" /> 
+    <link rel="stylesheet" href="https://formden.com/static/cdn/bootstrap-iso.css" />
     <style>.bootstrap-iso .form-control:focus { border-color: #337b41;}</style>
 
     <!-- Para agregar iconos -->
@@ -26,8 +28,8 @@
     <title> Smartmargins </title>
 
   </head>
- 
- 
+
+
   <body>
 
 <div class="invisible mb-1"><p>Letra solo para dejar espacio </p></div>
@@ -36,11 +38,11 @@
   <div class="invisible mt-2 mb-2"><p>Letra solo para dejar espacio </p></div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-white rounded pt-4 pb-4 ">
-    
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-   
+
    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <a class="navbar-brand col-2" href="#">LOGO</a>
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -58,27 +60,27 @@
       <div class="bootstrap-iso">
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            
+
           </form>
       </div>
-      
-        <i class="fa fa-search"></i> 
+
+        <i class="fa fa-search"></i>
         <center  class="nav-item nav-link col-1" href="#" ><a>User</a></center>
 
     </div>
   </nav>
-  
-  
+
+
 
 
 
     <!--Dinamic content -->
     {% block content %}
 
-    
+
     {% endblock%}
 
-    
+
   </div>
 
     <!-- Optional JavaScript -->
