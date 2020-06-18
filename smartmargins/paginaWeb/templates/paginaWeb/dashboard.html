@@ -1,8 +1,14 @@
 {% extends 'paginaWeb/base.html' %}
 {% load static  %}
 
-{% block content %}
 
-<h1>dashboard</h1>
+{% block content %}
+{% include 'paginaWeb/basebarraservices.html' %}
+
+<div  class="mt-3 mb-3" >
+    <h1>dashboard</h1>
+    <p>La lucha contra la exclusión de las mujeres del poder pasa por temas como que ganan 17 por ciento menos que los hombres, son solo el 18 por ciento de la Cámara de Representantes y el 23 del Senado o reciben mucho menos apoyo económico y visibilidad que los hombres en el deporte, como lo ha demostrado la lucha en la Liga de fútbol femenina. O por temas trágicos como que cada tres días una mujer es asesinada por su pareja o expareja; cada media hora una mujer es víctima de violencia intrafamiliar y cada 28,8 minutos una mujer es agredida sexualmente, según cifras de Sisma Mujer . Pero también pasa por realidades que pasan más por debajo del radar como los piropos, el “masajito” en el trabajo, o por el imaginario de que están destinadas a ser madres o que son el “sexo débil”. Todo lo anterior ha sido fuertemente cuestionado por el #MeToo o movimientos sociales como el de las mujeres en Argentina o las marchas en contra de la llegada de Trump en Estados Unidos. O por fenómenos de la cultura popular como el mundial de fútbol femenino o muchas series de televisión que han puesto el tema sobre la mesa. Este “Lío de Mujeres y Poder” es una apuesta por contar, informar y explicar qué está pasando en Colombia con la exclusión de las mujeres, y qué hace falta hacer para que las mujeres tengan más poder.      </p>
+</div>
+<div class="invisible mb-1"><p>Letra solo para dejar espacio </p></div>
 
 {% endblock %}
