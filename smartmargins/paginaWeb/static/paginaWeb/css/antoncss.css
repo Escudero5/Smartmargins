@@ -1,0 +1,266 @@
+.my_super{
+  margin-top: 2%;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:1%;
+}
+
+.my_container{
+  background-color: #f8f8f8;
+  /*background-color: #ffb3d9; */
+  width:100%;
+  text-align:center;
+  font-weight: 400 !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.my_welcome_container{
+  background-color: #013A6B;
+  background: linear-gradient(135deg, #ffb3d9 5%, #ffffff 5%, #ffffff 15%, #ffb3d9 15%);
+  /* Start #5cbcb0 from 0 and end at 5%, Start #fff at 5% and end at 15%, Start #5cbcb0 again at 15% and end at 100% */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*background-color: #ffb3d9; */
+  width:100%;
+  text-align:center;
+  font-weight: 400 !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.my_testimony_container{
+  background-color: #013A6B;
+  background: linear-gradient(320deg, #006600 16%, #ffffff 5%,  #ffffff 30%);
+  /* Start #5cbcb0 from 0 and end at 5%, Start #fff at 5% and end at 15%, Start #5cbcb0 again at 15% and end at 100% */
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /*background-color: #ffb3d9; */
+  width:100%;
+  text-align:center;
+  font-weight: 400 !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+
+}
+
+.my_top_container{
+
+}
+.my_title{
+  padding-top: 10%;
+  font-size: 400%;
+  font-weight: lighter;
+
+}
+
+.my_bottom_container{
+
+}
+
+.my_desc{
+  padding-top: 4%;
+  padding-bottom:10%;
+  padding-left: 15%;
+  padding-right: 15%;
+  font-weight: lighter;
+}
+
+.my_testimony{
+    font-weight: lighter;
+}
+
+.my_testimony_client{
+  font-size:130%
+}
+
+.my_account_top{
+  margin-top: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+.my_account_title{
+  font-size: 300%;
+  font-weight: lighter;
+
+}
+
+.my_account_bottom{
+  margin-top: 3%;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 200%;
+  font-weight: 400 !important;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+
+}
+.my_dashboard{
+  margin-top: 2%;
+  padding-top: 2%;
+  padding-bottom: 3%
+
+}
+
+.my_dashboard_title{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.my_dashboard_icon_1{
+  flex-direction: column;
+  background-color: #ffcce6;
+  width: 8%;
+  height: 70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  border: 2px solid #ffcce6;
+  border-radius: 17px;
+}
+
+.my_dashboard_icon_2{
+  flex-direction: column;
+  background-color: #1a651a;
+  width: 8%;
+  height: 70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  border: 2px solid #1a651a;
+  border-radius: 17px;
+}
+
+.my_dashboard_icon{
+  flex-direction: column;
+  background-color: white;
+  width: 8%;
+  height:70%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 3%;
+  border: 2px solid white ;
+  border-radius: 17px;
+}
+
+.my_icon_url_box{
+  padding-top: 15%;
+  text-align: center;
+}
+
+.my_icon_url{
+  font-weight: lighter;
+  font-size: 105%;
+  color: #595959;
+}
+
+.my_icon_url:hover{
+  text-decoration:none;
+  font-weight:lighter;
+  font-size: 105%;
+  color: grey;
+}
+
+.my_icon_url_1{
+  font-weight: lighter;
+  font-size: 105%;
+  color: white
+}
+
+.my_icon_url_1:hover{
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 105%;
+  color: #f2f2f2;
+}
+
+.my_icon_1_logo{
+  width: 100%;
+  display:block;
+  margin: auto ;
+  margin-bottom: 5% ;
+  fill: white
+}
+
+.my_icon_2_logo{
+  width: 100%;
+  display:block;
+  margin: auto ;
+  margin-bottom: 5% ;
+  fill: white
+}
+
+.my_icon_logo{
+  width: 100%;
+  display:block;
+  margin: auto ;
+  margin-bottom: 5% ;
+  fill: #595959;
+}
+
+
+.my_footer{
+  padding-left: 2%
+}
+
+.my_price_button{
+ border-radius: 5px;
+ background-color: white;
+ border: 1px solid #ffb3d9;;
+ color: #ff99cc;
+ width: 100%;
+ padding: 3% 20%;
+ margin-bottom: 2%;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 130%;
+ margin: 4px 2px;
+ transition-duration: 0.2s;
+ cursor: pointer;
+
+}
+
+.my_price_button:hover {
+  background-color: #ffb3d9;
+  color: white;
+}
+
+.my_submit_button{
+ border-radius: 5px;
+ background-color: white;
+ border: 1px solid #ffb3d9;;
+ color: #ff99cc;
+ width: 70%;
+ margin-left:15%;
+ margin-right: 15%;
+ padding: 3% 10%;
+ margin-bottom: 2%;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 130%;
+ transition-duration: 0.2s;
+ cursor: pointer;
+
+}
+
+.my_submit_button:hover {
+  background-color: #ffb3d9;
+  color: white;
+}

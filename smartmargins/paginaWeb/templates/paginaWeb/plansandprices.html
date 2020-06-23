@@ -1,8 +1,84 @@
 {% extends 'paginaWeb/base.html' %}
-{% load static  %}
+{% load static %}
+
+<head>
+  <link href = "{% static 'paginaWeb/css/priceplan.css' %}" rel = "stylesheet">
+</head>
 
 {% block content %}
+<div class = 'my_super'>
+ <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+   <h1 class="display-4">Plans & Prices</h1>
+ </div>
 
-<h1>plansandprices</h1>
+<div class="container">
+     <div class="card-deck mb-3 text-center">
+       <div class="card mb-4 box-shadow">
+         <div class="card-header">
+           <h4 class="my-0 font-weight-normal">Free Trial</h4>
+         </div>
+         <div class="card-body">
+           <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ month</small></h1>
+           <ul class="list-unstyled mt-3 mb-4">
+             <li><b>1-500</b> Products</li>
+             <hr>
+             <li><b>2</b> Users</li>
+             <hr>
+             <li>Email Alerts <b>On</b></li>
+             <hr>
+             <li><b>No Personalised Goals</b></li>
+           </ul>
+           <br>
+           <button type="button" class="my_price_button">Sign up for free</button>
+         </div>
+       </div>
+       <div class="card mb-4 box-shadow">
+         <div class="card-header">
+           <h4 class="my-0 font-weight-normal">Small Business</h4>
+         </div>
+         <div class="card-body">
+           <h1 class="card-title pricing-card-title">$60 <small class="text-muted">/ month</small></h1>
+           <ul class="list-unstyled mt-3 mb-4">
+             <li><b>1-1000</b> Products</li>
+             <hr>
+             <li><b>3</b> Users</li>
+             <hr>
+             <li>Email Alerts <b>On</b></li>
+             <hr>
+             <li><b>No Personalised Goals</b></li>
+           </ul>
+           <br>
+           <button type="button" class="my_price_button">Try Now</button>
+         </div>
+       </div>
+       <div class="card mb-4 box-shadow">
+         <div class="card-header">
+           <h4 class="my-0 font-weight-normal">Large Business</h4>
+         </div>
+         <div class="card-body">
+           <h1 class="card-title pricing-card-title">$150 <small class="text-muted">/ month</small></h1>
+           <ul class="list-unstyled mt-3 mb-4">
+             <li><b>1-5000</b> Products</li>
+             <hr>
+             <li><b>5</b> Users</li>
+             <hr>
+             <li>Email Alerts <b>On</b></li>
+             <hr>
+             <li><b>Personalised Goals Included</b></li>
+           </ul>
+           <br>
+           <button type="button" class="my_price_button">Try Now</button>
+         </div>
+       </div>
+     </div>
+     </div>
+
+  <hr>
+  <br>
+   <footer class="my_footer">SmartMargins 2020</footer>
+
+</div>
+
+
 
 {% endblock %}
