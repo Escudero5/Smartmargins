@@ -260,7 +260,31 @@
 
 }
 
+.my_login_button{
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #80bfff;
+  color: #80bfff;
+  width: 70%;
+  margin-left:15%;
+  margin-right: 15%;
+  padding: 3% 10%;
+  margin-bottom: 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 130%;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
 .my_submit_button:hover {
   background-color: #ffb3d9;
+  color: white;
+}
+
+
+.my_login_button:hover{
+  background-color: #80bfff;
   color: white;
 }

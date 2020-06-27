@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'paginaWeb',
+    'account'
 ]
 
 MIDDLEWARE = [
@@ -70,16 +71,23 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'smartmargins.wsgi.application'
 
+AUTH_USER_MODEL = 'account.Account'
+
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': 'Super146799!',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
+
 
 
 # Password validation
@@ -106,7 +114,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+#Set to 'Europe/Dublin' When DST is no longer on
+TIME_ZONE = 'Europe/Dublin'
 
 USE_I18N = True
 

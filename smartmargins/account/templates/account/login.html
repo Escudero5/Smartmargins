@@ -1,0 +1,43 @@
+{% extends "paginaWeb/base.html" %}
+
+{% block content %}
+
+<div class = 'my_super'>
+    <div class = 'my_account_top'>
+      <h4 my_account_title>Sign In</h4>
+    </div>
+<form method="post">
+	{% csrf_token %}
+	<div class = 'my_account_bottom'>
+		<div class = 'form-group'>
+			{{login_form.as_p}}
+		</div>
+
+
+	<button type="submit" class = 'my_login_button'>Log in</button>
+	</div>
+
+</form>
+</div>
+
+<br>
+<br>
+<br>
+<hr>
+<footer class= my_footer>
+  <div>SmartMargins 2020
+
+  </div>
+
+  <div class="col-6 col-md">
+
+         <ul class="list-unstyled text-small">
+           <li><a class="text-muted" href="#">Contact</a></li>
+           <li><a class="text-muted" href="#">More About Us</a></li>
+         </ul>
+       </div>
+       <div class="col-6 col-md">
+
+</footer>
+
+{% endblock %}
